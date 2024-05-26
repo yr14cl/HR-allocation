@@ -46,7 +46,7 @@ def plot_gantt_with_today_marker(df, today):
 st.title('Dashboard for Project Management')
 
 # Fixed file path
-file_path = '/Users/olivey/Desktop/interview resources/dashboard/dash3/Book2.xlsx'
+file_path = 'main/Book2.xlsx'
 df = pd.read_excel(file_path)
 
 # Select items to display
@@ -116,8 +116,8 @@ def calculate_past_avg_time_per_week(df2, project):
 st.title('Interactive Charts with Project Filter')
 
 # Load data
-df1_path = '/Users/olivey/Desktop/interview resources/dashboard/dash3/dash3data.xlsx'
-df2_path = '/Users/olivey/Desktop/interview resources/dashboard/dash3/Corrected_Book4.xlsx'
+df1_path = 'main/dash3data.xlsx'
+df2_path = 'main/Corrected_Book4.xlsx'
 df1 = load_data(df1_path)
 df2 = load_data(df2_path)
 
