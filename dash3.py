@@ -162,3 +162,4 @@ plt.xticks(rotation=45, ha='right')  # Rotate labels and align right for better 
 plt.tight_layout()
 
 st.pyplot(fig)
+
