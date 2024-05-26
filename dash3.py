@@ -61,7 +61,7 @@ else:
     st.write("Please select at least one project to display the Gantt chart.")
     
 # Load the datasets with Streamlit's experimental_memo decorator
-@st.cache_data
+@st.cache
 def load_data(file_path):
     return pd.read_excel(file_path)
 
